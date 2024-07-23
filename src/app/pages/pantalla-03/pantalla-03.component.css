@@ -1,0 +1,58 @@
+.mobile-container {
+    width: 320px;
+    height: 640px;
+    border: 5px solid #007baf;
+    border-radius: 20px;
+    background-color: #d3edf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .refresh-btn,
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .math-problem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  .question {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .option-btn {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
